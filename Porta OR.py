@@ -3,9 +3,9 @@ import random
 trainingset = [[0, 0, 0], [0, 1, 1], [1, 0, 1], [1, 1, 1]]  # porta OR
 eta = 0.3  # passo de aprendizado
 maxiterations = 100
-w1 = random.uniform(-0.2, 0.2)
-w2 = random.uniform(-0.2, 0.2)
-w0 = 1
+w1 = random.uniform(-0.8, 0.8)
+w2 = random.uniform(-2.5, 2.5)
+w0 = 0
 
 error = random.uniform(-0.2, 0.2)
 count = 0

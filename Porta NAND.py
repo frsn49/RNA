@@ -3,9 +3,9 @@ import random
 trainingset = [[0, 0, 1], [0, 1, 1], [1, 0, 1], [1, 1, 0]]  # porta NAND
 eta = 0.3  # passo de aprendizado
 maxiterations = 100
-w1 = random.uniform(-0.2, 0.2)
-w2 = random.uniform(-0.2, 0.2)
-w0 = 1
+w1 = random.uniform(-0.5 , 0.5)
+w2 = random.uniform(-0.25 , 0.25)
+w0 = -1
 
 error = random.uniform(-0.2, 0.2)
 count = 0
